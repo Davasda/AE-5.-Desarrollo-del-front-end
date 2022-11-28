@@ -1,0 +1,403 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+
+/* GENERAL */
+
+
+body {
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+span {
+    color: #265d86;
+}
+
+h1 {
+    color: #A4A491;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36pt;
+}
+
+h2 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32pt;
+}
+
+h3 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+}
+
+h4 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+h5 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+p, a {
+    color: #020202;
+    font-family: roboto-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+}
+
+
+/* NAV MENU */
+.container{
+    max-width: 1444px;
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .navbar{
+    position: relative;
+    width: 1444px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+
+    /* Base Colors/White */
+
+    background: #FFFFFF;
+
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-branding{
+      font-size: 2rem;
+    }
+    .nav-menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+    }
+    .nav-link{
+      transition: 0.3s ease-out;
+      
+    }
+    .nav-link:hover{
+      color: dodgerblue;
+    }
+/*BOTON LOGIN*/
+
+    .nav-button{
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
+
+        width: 101px;
+        height: 35px;
+        left: 1263px;
+        top: 23px;
+
+        /* Contrast Colors/Orange Dark */
+
+        background: #DF8923;
+        border-radius: 15px;
+        
+    }
+
+    .nav-button-select{
+       
+        width: 100px;
+        height: 28px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        line-height: 140%;
+        /* identical to box height, or 28px */
+
+
+        /* Base Colors/White */
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+      }
+
+      .nav-button:hover {
+         /* Contrast Colors/Orange Dark */
+
+        background: #DF8923;
+        border-radius: 15px;
+
+        /* Button */
+        width: 100px;
+        height: 28px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        line-height: 140%;
+        /* identical to box height, or 28px */
+
+
+        /* Base Colors/White */
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+      }
+    .hamburger{
+      display: none;
+      cursor: pointer;
+    }
+    .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      background-color: white;
+    }
+    
+    #login-button {
+
+        width: 150px;
+        height: 28px;
+        margin-left: 50px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+       
+    
+        
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+     
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+       
+    
+        background: #DF8923;
+        border-radius: 15px;
+        }
+
+    
+
+    #a-header:hover {
+        color: #265d86;
+        font-weight: bold;
+    }
+
+    /* Buscador */
+
+    .buscador{
+    box-sizing: border-box;
+    width: 219px;
+    height: 35.32px;
+    left: 0px;
+    top: 0px;
+
+    /* Base Colors/White */
+
+    background: #FFFFFF;
+    /* Background Colors/Primary/Dark Blue */
+
+    border: 1px solid #143248;
+    border-radius: 62px;
+    }
+
+
+
+
+  @media(max-width:1024px){
+    .hamburger{
+      display: block;
+    }
+   .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+   .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+   .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+   .nav-menu{
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #262626;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+   .nav-item{
+      margin: 16px 0;
+    }
+   .nav-menu.active{
+      left: 0;
+    }
+  }
+
+ 
+    
+        
+
+/* BUTTONS */
+    #big-orange-button{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 437px;
+    height: 66px;
+    left: 66px;
+    top: 400px;
+
+    /* Contrast Colors/Orange Dark */
+
+    background: #DF8923;
+    border-radius: 15px;
+        
+    }
+
+    #medium-orange-button{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+ 
+    width: 149px;
+    height: 66px;
+
+    /* Contrast Colors/Orange Dark */
+
+    background: #DF8923;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    }
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: #A4A491 solid 1px;
+    padding-top: 4%;
+}
+
+#footer-p {
+    margin-top: 0.5%;
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12pt;
+    word-spacing: 2px;
+}
+
+#footer-p a {
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0px;
+}
+
+#footer-p a:hover {
+    color: #D84341;
+}
