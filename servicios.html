@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/general.css" type="text/css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -16,21 +15,6 @@
     
 </head>
 <body>
-    
-<!--Menú de Navegación--><!--
-    <nav class="topnav" >
-        <a href="./index.html">
-            <img src="./images/logo_blue.png" width="70">
-        </a>
-            <a id="a-header" class="buscador"></a>
-            <a href="./html/terapias.html" id="a-header" >TERAPIAS</a>
-            <a href="./html/servicios.html" id="a-header" >SERVICIOS</a>
-            <a href="./html/buscador.html" id="a-header" >BUSCADOR</a>
-            <a href="./html/sobre-nosotros.html" id="a-header" >SOBRE NOSOTROS</a>
-            <a href="./html/registro.html" id="a-header" >REGISTRO</a>
-            <a href="./html/login.html"id="login-button" >LOGIN</a>
-    </nav>-->
-        
     <div class="container"> 
         <nav class="navbar">
             <a href="./index.html">
@@ -43,7 +27,7 @@
                  <a href="#" class="nav-link">TERAPIAS</a>
               </li>
               <li class="nav-item">
-                 <a href="/servicios.html" class="nav-link">SERVICIOS</a>
+                 <a href="#" class="nav-link">SERVICIOS</a>
               </li>
               <li class="nav-item">
                  <a href="#" class="nav-link">BUSCADOR</a>
@@ -64,20 +48,32 @@
               <span class="bar"></span>
            </div>
         </nav>
-     </div>
 
-   
-</body>
-<script defer >
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-    hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-    }))
-})
-</script>
-</html>
+        <div class="servicios-test"> 
+            <section class="ejecuta">
+
+            </section>
+            <section class="imagen">
+                
+            </section>
+        </div>
+
+        <div class="servicios-terapia-online"> 
+            <section class="imagen">
+                
+            </section>
+            <section class="ejecuta">
+
+            </section>
+        </div>
+
+        <div class="servicios-video-terapia"> 
+            <section class="ejecuta">
+
+            </section>
+            <section class="imagen">
+                
+            </section>
+        </div>
+
+     </div>

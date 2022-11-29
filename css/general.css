@@ -1,10 +1,11 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
 * {
     margin: 0;
     padding: 0;
+    border: solid red 1px;
+
 }
 
 a {
@@ -115,8 +116,11 @@ p, a {
       align-items: center;
       gap: 60px;
     }
-    .nav-link{
+    .nav-linkR{
       transition: 0.3s ease-out;
+      font-family: roboto-slab, serif;
+      font-weight: 700;
+      font-style: normal;
       
     }
     .nav-link:hover{
