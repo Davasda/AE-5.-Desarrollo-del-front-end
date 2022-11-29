@@ -1,0 +1,230 @@
+/* BUTTONS */
+    .big-orange-button{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    width: 437px;
+    height: 66px;
+    left: 66px;
+    top: 400px;
+
+    /* Contrast Colors/Orange Dark */
+
+    background: #DF8923;
+    border-radius: 15px;
+
+    /* Button */
+
+
+    width: 129px;
+    height: 34px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+
+    /* Base Colors/White */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+            
+    }
+
+    .big-orange-button:hover{
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
+    
+        width: 437px;
+        height: 66px;
+        left: 66px;
+        top: 400px;
+    
+        /* Contrast Colors/Orange Dark */
+    
+        background: #DF8923;
+        border-radius: 15px;
+    
+        /* Button */
+    
+    
+        width: 129px;
+        height: 34px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        /* identical to box height, or 34px */
+    
+    
+        /* Base Colors/White */
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+                
+        }
+
+    .medium-orange-button{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    width: 149px;
+    height: 66px;
+
+    /* Contrast Colors/Orange Dark */
+
+    background: #DF8923;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    }
+
+    
+    .medium-orange-button:hover{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    width: 149px;
+    height: 66px;
+
+    /* Contrast Colors/Orange Dark */
+
+    background: #DF8923;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    }
+
+/* TITULOS H*/
+        h1 {
+            width: 605px;
+            height: 107px;
+            
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 49px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #000000;
+            
+            
+            /* Inside auto layout */
+            
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        
+        /*h2 {
+            color: #A4A491;
+            font-family: roboto-slab, serif;
+            font-weight: 100;
+            font-style: normal;
+            font-size: 32pt;
+        }
+        
+        h3 {
+            color: #A4A491;
+            font-family: roboto-slab, serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 28pt;
+        }
+        
+        h4 {
+            color: #A4A491;
+            font-family: roboto-slab, serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 24pt;
+        }
+        
+        h5 {
+            color: #A4A491;
+            font-family: roboto-slab, serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20pt;
+        }
+        */
+
+/*TEXTOS*/
+        .text {
+        width: 616px;
+        height: 165px;
+
+        font-family: 'Phetsarath';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        }
