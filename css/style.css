@@ -2,79 +2,41 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* BUTTONS */
-    .big-orange-button{
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
-
-    width: 437px;
-    height: 66px;
-    left: 66px;
-    top: 400px;
-
-    /* Contrast Colors/Orange Dark */
-
-    background: #DF8923;
-    border-radius: 15px;
-
-    /* Button */
-
-
-    width: 129px;
-    height: 34px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 140%;
-    /* identical to box height, or 34px */
-
-
-    /* Base Colors/White */
-
-    color: #FFFFFF;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-            
-    }
+   
 
     .big-orange-button:hover{
+        box-sizing: border-box;
+
         /* Auto layout */
-    
+
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 16px;
         gap: 16px;
+
+        width: 200px;
+        height: 50px;
     
-        width: 437px;
-        height: 66px;
-        left: 66px;
-        top: 400px;
-    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+
         /* Contrast Colors/Orange Dark */
-    
-        background: #DF8923;
+
+        border: 1px solid #DF8923;
         border-radius: 15px;
-    
+        background: #ffffff;
+
+
         /* Button */
-    
-    
-        width: 129px;
-        height: 34px;
+
+
+        width: 200px;
+        height: 50px;
     
         font-family: 'Poppins';
         font-style: normal;
@@ -82,72 +44,146 @@
         font-size: 16px;
         line-height: 140%;
         /* identical to box height, or 34px */
-    
-    
-        /* Base Colors/White */
-    
-        color: #FFFFFF;
-    
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+
+
+        /* Contrast Colors/Orange Dark */
+
+        color: #DF8923;
+
+
         /* Inside auto layout */
-    
+
         flex: none;
         order: 0;
         flex-grow: 0;
                 
         }
+        .big-orange-button{
+            box-sizing: border-box;
+    
+            /* Auto layout */
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            gap: 16px;
+    
+            width: 200px;
+            height: 50px;
+        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 140%;
+    
+            /* Contrast Colors/Orange Dark */
+    
+            border: 1px solid #DF8923;
+            border-radius: 15px;
+            background: #DF8923;
+    
+    
+            /* Button */
+    
+    
+            width: 200px;
+            height: 50px;
+        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 140%;
+            /* identical to box height, or 34px */
+    
+    
+            /* Contrast Colors/Orange Dark */
+    
+            color: #ffffff;
+    
+    
+            /* Inside auto layout */
+    
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+                    
+            }
+
+       
 
     .medium-orange-button{
-        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
+    
 
-    width: 149px;
-    height: 66px;
+        /* Contrast Colors/Orange Dark */
 
-    /* Contrast Colors/Orange Dark */
+        background: #DF8923;
+        border-radius: 15px;        
+       
+        /* Button */
+        
+        
+        width: 106px;
+        height: 28px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        /* identical to box height, or 28px */
+        
+        
+        /* Base Colors/White */
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        /* Inside auto layout */
+        
+    
+        /* Button */
 
-    background: #DF8923;
-    border-radius: 15px;
 
-    /* Inside auto layout */
+        width: 106px;
+        height: 28px;
 
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        /* identical to box height, or 28px */
+
+
+        /* Base Colors/White */
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 
     }
 
     
     .medium-orange-button:hover{
-        /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
-
-    width: 149px;
-    height: 66px;
-
-    /* Contrast Colors/Orange Dark */
-
-    background: #DF8923;
-    border-radius: 15px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+  
 
     }
 
@@ -209,55 +245,4 @@
         */
 
 /*TEXTOS*/
-    /* SECTION */
-        .section{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1.9rem;
-            max-width: 1100px;
-            margin: 7rem auto -6rem;
-        }
-        .section .text {
-        width: 616px;
-        height: 165px;
-
-        font-family: 'Phetsarath';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 35px;
-        display: flex;
-        align-items: center;
-        text-align: left;
-
-        color: #000000;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        }
-
-        @media only screen and (max-width: 1024px) {
-            .section {
-                width: auto;
-                height: auto;
-                padding: 1rem;
-                }
-            h1{
-                font-style: normal;
-                font-size: 18px;
-                display:block;
-                align-items: center;
-                text-align: left;
-            }
-            .section .text{
-                display: block;
-                font-style: normal;
-                font-size: 18px;
-                text-align: left;
-            }
-        }
+    
