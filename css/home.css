@@ -13,12 +13,12 @@
         background-image:url(/images/Group001.png);
         background-repeat: no-repeat;
         background-color: #ffffff;
-        ;
 
         }
         .section-text{
         padding-left: 10%;
         }
+
         .text {
         width: 616px;
         height: 165px;
@@ -42,13 +42,14 @@
         order: 1;
         flex-grow: 0;
         }
+
         .picture{
         max-width: 1100px;
         margin: 10rem auto;
         padding: 0 15px;
         }
 
-        @media only screen and (max-width: 1024px) {
+        /*@media only screen and (max-width: 1024px) {
         .section1 {
         width: auto;
         height: auto;
@@ -67,98 +68,51 @@
         font-size: 18px;
         text-align: left;
         }
-        }
+        }*/
+
     /*SECCION 2*/
         .section2{
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 15px;
+                   
             gap:15%;
-            height: 50vh;
-            margin-top: 10rem;
-            padding: 10rem 10rem 0% 10rem;
+           
+            padding: 5%;
             background-color: #265D86
-            
-         
-
             }
-        .section2-1st-column{
-            /* Auto layout */
 
+        .section2-column{
+            /* Auto layout */
+          
             align-items: center;
             padding: 0px 0px 71px;
             gap: 16px;
+            margin: 10px;
 
             width: 259px;
             height: 463px;
-
-
-            /* Inside auto layout */
-
-            flex: none;
-            order: 0;
-            flex-grow: 0;
         }
-        .section-elipse1{
-        display: flex;
+        .image{
+    
         width: 226px;
         height: 226px;
-        left: 172px;
-        top: 971px;
-        border-radius: 50%;
-        background-size: 70%;
-        background-position-x:  center;
-        background-position-y:  center;
+        display:block;
+        margin:auto;
 
-        background-image:url(/images/undraw_home_cinema_l7yl\ 1.png);
-        background-repeat: no-repeat;
-        background-color: white;
-
-        
         }
-        .section-elipse2{
-            display: flex;
-            width: 226px;
-            height: 226px;
-            left: 172px;
-            top: 971px;
-            border-radius: 50%;
-            background-size: 70%;
-            background-position-x:  center;
-            background-position-y:  center;
-    
-            background-image:url(/images/undraw_home_cinema_l7yl\ 1.png);
-            background-repeat: no-repeat;
-            background-color: white;
-    
-            
-            }
-            .section-elipse3{
-                display: flex;
-                width: 226px;
-                height: 226px;
-                left: 172px;
-                top: 971px;
-                border-radius: 50%;
-                background-size: 70%;
-                background-position-x:  center;
-                background-position-y:  center;
-        
-                background-image:url(/images/undraw_home_cinema_l7yl\ 1.png);
-                background-repeat: no-repeat;
-                background-color: white;
-        
-                
-                }
+
         .section2-title{ 
-            width: 195px;
-            height: 78px;
+           padding: 10%;
             
             font-family: 'Phetsarath';
             font-style: normal;
-            font-weight: 700;
+          
             font-size: 20px;
             line-height: 29px;
-            display: flex;
-            align-items: center;
+          
             text-align: center;
             
             color: #FFFFFF;
@@ -181,6 +135,7 @@
             display: flex;
             align-items: center;
             text-align: center;
+            margin-bottom: 10%;
             
             color: #FFFFFF;
             
