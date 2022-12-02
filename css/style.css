@@ -207,20 +207,23 @@
             
             color: #000000;
             
-            
-            /* Inside auto layout */
-            
-            flex: none;
-            order: 0;
-            flex-grow: 0;
+        
         }
         
-        /*h2 {
-            color: #A4A491;
-            font-family: roboto-slab, serif;
-            font-weight: 100;
+        h2 {
+            width: 605px;
+            height: 107px;
+            
+            font-family: 'Montserrat';
             font-style: normal;
-            font-size: 32pt;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 49px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #000000;
         }
         
         h3 {
@@ -246,7 +249,7 @@
             font-style: normal;
             font-size: 20pt;
         }
-        */
+        
 
-/*TEXTOS*/
+
     

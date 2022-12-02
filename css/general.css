@@ -207,3 +207,12 @@ body {
   background: #143248;
    }
 
+   .section-footer .section2-column .image{
+    
+    width: 226px;
+    height: 226px;
+    display:block;
+    margin:auto;
+
+    }
+
