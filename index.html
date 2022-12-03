@@ -10,96 +10,75 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
     <title>TUPSICOLOGO.ES</title>
-
-    
 </head>
 <body>
-<!--INICIO CABECERA MENU-->            
-    <div class="container"> 
-        <nav class="navbar">
-            <a href="./index.html">
-                <img src="./images/logo_blue.png" width="70">
-            </a>
-           <ul class="nav-menu">
-                <li class="buscador">
-                </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">TERAPIAS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">BUSCADOR</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">SOBRE NOSOTROS</a>
-             </li>
-             <li class="nav-button">
-               <a href="#" class="nav-button">REGISTRO</a>
-            </li>
-             <li class="nav-item">
-                <a href="#" class="nav-link">LOGIN</a>
-             </li>
-            
-           </ul>
-           <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-           </div>
-        </nav>
-     </div>
-<!--FIN CABECERA MENU-->            
+
+<!--CABECERA CON MENU -->
+  <nav class="navbar">
+    <!-- LOGO -->    
+    <div class="logo">
+      <a href="./index.html"><img src="./images/logo_blue.png" width="70"></a>
+    </div>   
+
+    <!-- NAVIGATION MENU -->    
+    <ul class="nav-links">   
+
+    <!-- USING CHECKBOX HACK -->    
+    <input type="checkbox" id="checkbox_toggle" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+    <!-- NAVIGATION MENUS -->
+    <div class="menu">
+      <li class="buscador"></li>
+      <li class="nav-item"><a href="#" class="nav-link">TERAPIAS</a></li>
+      <li class="nav-item"><a href="./servicios.html" class="nav-link">SERVICIOS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">BUSCADOR</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">SOBRE NOSOTROS</a></li>
+      <li class="nav-item"><a href="#" class="nav-button">REGISTRO</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">LOGIN</a></li>    
+    </div>
+  </nav> 
 
 <!--INICIO HERO-->            
-     <section class="section1">
-      
-      <div class="section-text">
-        <h1>
-          <span> ESTE ES EL TITULO </span> <br />
-         </h1>
-        <p class="text">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-         Donec purus lorem, sodales vel sapien quis, sodales ultricies erat. <br />
-        </p>
-        <a class="big-orange-button" href="#">Registrarme</a>
-      </div>
-    </section>
-<!--FIN HERO-->    
+  <section class="hero">
 
-<!--SECCION 2 TRES CIRCULOS-->            
-    <section class="section2">
-        
-    <div class="section2-column">
-        <div ><img class="image"  src="./images/undraw_home_cinema_l7yl 1.png" width="70"></div>
-        <div class="section2-title"><a>TERAPIA ONLINE</a></div>
-        
-        <a class="section2-text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
-        <a class="medium-orange-button" href="#">Contactar</a>
-    </div>
-    <div class="section2-column">
-        <div ><img class="image"  src="./images/undraw_home_cinema_l7yl 1.png" width="70"></div>
-        <div class="section2-title"><a>TERAPIA ONLINE</a></div>
-        
-        <a class="section2-text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
-        <a class="medium-orange-button" href="#">Contactar</a>
-    </div>
-
-    </div>
-    <div class="section2-column">
-        <div ><img class="image"  src="./images/undraw_home_cinema_l7yl 1.png" width="70"></div>
-        <div class="section2-title"><a>TERAPIA ONLINE</a></div>
-        
-        <a class="section2-text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
-        <a class="medium-orange-button" href="#">Contactar</a>
-    </div>
-
+    <div class="section-text">
+      <h1> ESTE ES EL TITULO</h1>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+        Donec purus lorem, sodales vel sapien quis, sodales ultricies erat. <br /></h4>
+      <a class="big-orange-button" href="#">Registrarme</a>
     </div>
   </section>
+<!--FIN HERO-->    
+
+<!--SECCION TRES CIRCULOS-->
+<div class="franja-azul">           
+  <section class="section-3columns">
+    <div class="colum">
+      <img src="./images/undraw_home_cinema_l7yl 1.png" width="70">
+      <h4>TERAPIA ONLINE</h4>
+      <a id="text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
+      <a class="medium-orange-button" href="#">Contactar</a>
+    </div>
+    <div class="colum">
+      <img src="./images/undraw_home_cinema_l7yl 1.png" width="70">
+      <h4>TERAPIA ONLINE</h4>
+      <a id="text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
+      <a class="medium-orange-button" href="#">Contactar</a>
+    </div>
+    <div class="colum">
+      <img src="./images/undraw_home_cinema_l7yl 1.png" width="70">
+      <h4>TERAPIA ONLINE</h4>
+      <a id="text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
+      <a class="medium-orange-button" href="#">Contactar</a>
+    </div>
+    
+
+  </div>
+  </section>
+</div> 
 
   <!--SECCION 3 TE CONECTAMOS-->
   <div class="franja-blanca">             
@@ -117,7 +96,7 @@
     <div class="franja-blanca">             
     <section class="section-2columns">
       <div>
-        <img class="image"  src="./images/undraw_educator_re_ju47 1.png">
+        <img src="./images/undraw_educator_re_ju47 1.png">
       </div>
       <div>
         <h2>ACCEDE A SERVICIOS COMO CLASES ON-LINE</h2>
@@ -144,7 +123,7 @@
           <a class="big-orange-button" href="#">Realizar Test</a>
       </div>
       <div>
-        <img class="image"  src="./images/undraw_projections_re_ulc6 1.png">
+        <img src="./images/undraw_projections_re_ulc6 1.png">
       </div>
     </section>
     </div>
@@ -152,7 +131,7 @@
     
 <!--SECCION 6 TESTIMONIOS-->
 <div class="franja-azul">
-  <h2>TESTIMONIOS</h2>       
+  <h2 class="testimonios">TESTIMONIOS</h2>       
   <section class="section-2columns">
     <div class="testimonio">
       <h4>RAUL NODA</h4>
@@ -177,46 +156,28 @@
   </section>
 </div>     
 
-<!--INICIO FOOTER-->>
+<!--INICIO FOOTER-->
   <footer>
-    <section class="section-footer">
-        
-        <div class="section2-column">
-            <div ><img class="image"  src="./images/undraw_home_cinema_l7yl 1.png" width="70"></div>
-            <div class="section2-title"><a>TERAPIA ONLINE</a></div>
-            
-            <a class="section2-text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
-            <a class="medium-orange-button" href="#">Contactar</a>
+    <section class="section-2columns">
+        <div class="footer-colum">
+          <div id="text">          
+            <h4>Para más información contactanos</h4><br>
+            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus lorem.</a>
+          </div>
+          <a class="medium-orange-button" href="#">Contactar</a>
         </div>
-        <div class="section2-column">
-            <div ><img class="image"  src="./images/undraw_home_cinema_l7yl 1.png" width="70"></div>
-            <div class="section2-title"><a>TERAPIA ONLINE</a></div>
-            
-            <a class="section2-text">Pulvinar et eros sit amet, efficitur porta tellus. Integer scelerisque</a>
-            <a class="medium-orange-button" href="#">Contactar</a>
+        <div class="footer-colum">
+          <div id="text">          
+            <h4>Nuestras Redes</h4><br>
+          </div>
+            <img src="./images/redes.png">
+          <div class="mail">
+            <a href="mailto:info@tupsicologo.com" class="mail" >info@tupsicologo.com</a>
+          </div>
         </div>
-    
-        </div>
-      </section>
+    </section>
 
 
-</footer>
-
-   
+</footer>   
 </body>
-
-<script defer >
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-    hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-    }))
-})
-</script>
-
-
 </html>
