@@ -33,12 +33,13 @@ body {
 /* NAV MENU */
 .container{
     max-width: 1224px;
-    width: 80%;
+    width: 20%;
     margin: 0 auto;
     
   }
+
   .navbar{
-    position:absolute;
+    position: absolute;
     width: 1224px;
     height: 86px;
     left: 2%;
@@ -120,7 +121,7 @@ body {
       
     }
 
-      .nav-button:hover {
+      .nav-button :hover {
 
 
 
