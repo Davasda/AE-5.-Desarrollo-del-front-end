@@ -16,38 +16,32 @@
     
 </head>
 <body>
-    <div class="container"> 
-        <nav class="navbar">
-            <a href="./index.html">
-                <img src="./images/logo_blue.png" width="70">
-            </a>
-           <ul class="nav-menu">
-                <li class="buscador">
-                </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">TERAPIAS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">BUSCADOR</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">SOBRE NOSOTROS</a>
-             </li>
-             <li class="nav-item">
-                <a href="#" class="nav-linkR">REGISTRO</a>
-             </li>
-             <li class="nav-button">
-                <a href="#" class="nav-button-select">LOGIN</a>
-             </li>
-           </ul>
-           <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-           </div>
+    <<!--CABECERA CON MENU -->
+  <nav class="navbar">
+   <!-- LOGO -->    
+   <div class="logo">
+     <a href="./index.html"><img src="./images/logo_blue.png" width="70"></a>
+   </div>   
+
+   <!-- NAVIGATION MENU -->    
+   <ul class="nav-links">   
+
+   <!-- USING CHECKBOX HACK -->    
+   <input type="checkbox" id="checkbox_toggle" />
+   <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+   <!-- NAVIGATION MENUS -->
+   <div class="menu">
+     <li class="buscador"></li>
+     <li class="nav-item"><a href="#" class="nav-link">TERAPIAS</a></li>
+     <li class="nav-item"><a href="./servicios.html" class="nav-link">SERVICIOS</a></li>
+     <li class="nav-item"><a href="#" class="nav-link">BUSCADOR</a></li>
+     <li class="nav-item"><a href="#" class="nav-link">SOBRE NOSOTROS</a></li>
+     <li class="nav-item"><a href="#" class="nav-button">REGISTRO</a></li>
+     <li class="nav-item"><a href="#" class="nav-link">LOGIN</a></li>    
+   </div>
+ </nav> 
+
         </nav>
     <div class="principal">
         <h3 id="about">SOBRE NOSOTROS</h3>
