@@ -21,11 +21,16 @@
 
 }
 
-h4{
+#titulo2{
+    
     text-align: center;
     font-size: 24px;
     font-family: Montserrat;
     padding-bottom: 1%;
+}
+    
+.footer{
+    height: 2005px;
 }
 
 .contacto{
@@ -122,7 +127,18 @@ input[type=checkbox]{
     width: 30px;
     margin-right: 10px;
 }
+.section-2columns{
+    
+    display: grid;
+    flex: content;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10%;  
+    
+}
 
+.footer{
+    height: 2005px;
+}
 /*Movil*/
 
 @media screen  and ( max-width: 993px) {
