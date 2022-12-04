@@ -16,40 +16,30 @@
     
 </head>
 <body>
-    <div class="container"> 
-        <nav class="navbar">
-            <a href="./index.html">
-                <img src="./images/logo_blue.png" width="70">
-            </a>
-           <ul class="nav-menu">
-                <li class="buscador">
-                </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">TERAPIAS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                 <a href="#" class="nav-link">BUSCADOR</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">SOBRE NOSOTROS</a>
-             </li>
-             <li class="nav-item">
-                <a href="#" class="nav-linkR">REGISTRO</a>
-             </li>
-             <li class="nav-button">
-                <a href="#" class="nav-button-select">LOGIN</a>
-             </li>
-           </ul>
-           <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-           </div>
-        </nav>
+   <nav class="navbar">
+      <!-- LOGO -->    
+      <div class="logo">
+        <a href="./index.html"><img src="./images/logo_blue.png" width="70"></a>
+      </div>   
+  
+      <!-- NAVIGATION MENU -->    
+      <ul class="nav-links">   
+  
+      <!-- USING CHECKBOX HACK -->    
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+  
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li class="buscador"></li>
+        <li class="nav-item"><a href="#" class="nav-link">TERAPIAS</a></li>
+        <li class="nav-item"><a href="./servicios.html" class="nav-link">SERVICIOS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">BUSCADOR</a></li>
+        <li class="nav-item"><a href="./sobrenosotros.html" class="nav-link">SOBRE NOSOTROS</a></li>
+        <li class="nav-item"><a href="#" class="nav-button">REGISTRO</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">LOGIN</a></li>    
       </div>
+    </nav>
 
       <div class="servicios">
         <div class="servicios-test"> 
@@ -92,10 +82,25 @@
         </div>
       </div>
    
-   <footer>
-
-<h1> aqui iria el footer</h1>
-
-   </footer>
+<footer>
+   <section class="section-2columns">
+       <div class="footer-colum">
+         <div id="text">          
+           <h4>Para más información contactanos</h4><br>
+           <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus lorem.</a>
+         </div>
+         <a class="medium-orange-button" href="#">Contactar</a>
+       </div>
+       <div class="footer-colum">
+         <div id="text">          
+           <h4>Nuestras Redes</h4><br>
+         </div>
+           <img src="./images/redes.png">
+         <div class="mail">
+           <a href="mailto:info@tupsicologo.com" class="mail" >info@tupsicologo.com</a>
+         </div>
+       </div>
+   </section>
+</footer> 
 </body>
 </html>
