@@ -59,7 +59,7 @@ body {
 
 }
 
-img {
+#imagen {
     width: 35%;
 }
 
@@ -84,8 +84,6 @@ img {
     padding-top:3%;
     padding-bottom:3%;
 }
-
-
 
 .botones{
     background-color: #DF8923; 
@@ -116,8 +114,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap:10%;  
     
-}
-
-.footer{
-    height: 2005px;
 }

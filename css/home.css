@@ -31,13 +31,13 @@
         display: flex;
         flex-direction: row;
         height: 50vh;
-        margin-top: 2%;
+        margin-top: 3%;
         padding: 10rem 10rem 0% 10rem;
         background-size: auto;
         background-position-x:  90%;
         background-position-y:  20%;
         transition: all 1.5s ease-in-out;
-        background-image:url(/images/Group001.png);
+        background-image: url(/images/Group001.png);
         background-repeat: no-repeat;
         background-color: #ffffff;
         }
@@ -128,10 +128,6 @@
         padding-top: 3%;
         width: 100px;
         }
-
-        
-
-
 
         
 
