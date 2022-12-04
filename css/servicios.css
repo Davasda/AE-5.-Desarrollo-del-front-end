@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /*border: solid red 1px;*/
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 .servicios-test{
     background-color:#ffcc91;
     display:flex;
-    height: 400px;
+    height:auto;
     padding-top:1%;
     padding-bottom:1%;
     padding-left:50px;
@@ -22,7 +23,7 @@ body {
 .servicios-terapia-online{
 
     display:flex;
-    height: 400px;
+    height: auto;
     padding-top:1%;
     padding-bottom:1%;
     padding-left:50px;
@@ -33,7 +34,7 @@ body {
 .servicios-video-terapia{
     background-color:#ffcc91;
     display:flex;
-    height: 400px;
+    height: auto;
     padding-top:1%;
     padding-bottom:1%;
     padding-left:50px;
@@ -54,7 +55,12 @@ body {
     align-items: center;
     text-align: center;
     color: #000000;
+    width: 65%;
 
+}
+
+img {
+    width: 35%;
 }
 
 .titexbo p{
